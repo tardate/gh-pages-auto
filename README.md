@@ -43,3 +43,11 @@ github.map.fastly.net.  4 IN  A 185.31.18.133
 ;; WHEN: Tue Nov 10 12:02:13 2015
 ;; MSG SIZE  rcvd: 125
 ```
+
+## Branches
+
+While gh-pages is usually maintained as a completely isolate branch in the repository, it is just like any branch. So:
+* it can be the only branch in the repo (i.e. no master)
+* it can be fully merged with another branch (i.e. master and gh-pages share the same commit)
+
+I've just merged master and gh-pages in this repo without issues.
